@@ -1,9 +1,10 @@
 # Java-Projects Repository
 
-This repository contains two Java desktop applications developed in Java SE:
+This repository contains three Java desktop applications developed in Java SE:
 
 1. **Java-ChatApp**
 2. **Java-NotePad**
+3. **Java-PockerGame**
 
 ---
 
@@ -28,6 +29,12 @@ A desktop text editor built with Java Swing for file editing and document manage
 - `src/FileManager.java` - File open/save helper methods.
 - `bin/` - Compiled classes.
 
+### Java-PockerGame
+A desktop Poker game built with Java Swing that demonstrates game logic, card handling, and a player UI.
+
+- `src/` - Source files for the game (UI, game logic, player/deck classes).
+- `bin/` - Compiled classes.
+
 ---
 
 ## Activity Summary
@@ -39,6 +46,8 @@ This repository demonstrates:
 - File I/O and desktop text editing in a notepad application.
 - Project organization with separate package directories for client, server, and utilities.
 - Use of external libraries and dependency management for `Java-ChatApp`.
+
+- Implementation of game rules and card/deck management in `Java-PockerGame`.
 
 ---
 
@@ -59,6 +68,14 @@ From the root of `Java-NotePad`:
 ```powershell
 javac src\*.java -d out
 java -cp out Main
+```
+
+### Java-PockerGame
+From the root of `Java-PockerGame`:
+
+```powershell
+javac src\*.java
+java -cp src App
 ```
 
 ---
